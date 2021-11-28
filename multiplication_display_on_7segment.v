@@ -1,6 +1,8 @@
 `timescale 1ns / 1ps
 `define biased_exponent 15
 
+/*here i have given 2 custom input using 2 16bits number num_1 & num_2, to the muplication 
+code & its output 'F' is passed to the display code where after pressing 4 buttons one by one output will be displayed on 7segment*/
 
 module Display_Mult(
 			clock, 
