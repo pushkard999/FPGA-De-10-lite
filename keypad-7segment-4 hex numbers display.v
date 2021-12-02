@@ -149,7 +149,7 @@ module keypad_if_else(
 				else if(Row == 4'b1110)			//R4
 				begin
 					DecodeOut <= 4'b1110; 		//E
-					out_7seg1 <= ~(8'b00000000);
+					out_7seg1 <= ~(8'b01111001);
 				end
 
 				sclk <= sclk + 1'b1;
